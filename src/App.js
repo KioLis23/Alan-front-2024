@@ -16,7 +16,7 @@ class App extends Component {
         super(props);
         this.state = {
             isMenuVisible: true,
-            isAuthenticated: true,
+            isAuthenticated: false,
             loggedInUser: null,
         };
     }
